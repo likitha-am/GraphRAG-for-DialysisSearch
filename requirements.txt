@@ -1,0 +1,8 @@
+﻿networkx==3.3
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
+tqdm==4.66.4
+python-dotenv==1.0.1
+scikit-learn==1.5.1
+scipy==1.13.1
