@@ -4,7 +4,7 @@ An end-to-end GraphRAG (Graph Retrieval-Augmented Generation) system for clinica
 
 ---
 
-## 🚀 Problem Statement
+##  Problem Statement
 
 Dialysis patients often have multiple co-morbidities (e.g., fluid overload + cardiac history). Identifying effective treatments requires reasoning across similar patient cases.
 
@@ -15,7 +15,7 @@ This project simulates that process using:
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
 - Synthetic dataset generation (20+ patients)
 - Hybrid entity extraction (LLM + rule-based fallback)
@@ -32,7 +32,7 @@ This project simulates that process using:
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 User Query  
 ↓  
@@ -56,7 +56,7 @@ What treatments worked for patients with fluid overload who also had prior cardi
 
 ---
 
-## ✅ Example Output
+##  Example Output
 
 Recommended Treatments:
 - Ultrafiltration → improved (3 patients)
@@ -79,29 +79,7 @@ Fallback Used: Partial condition matching
 - Ollama (local LLM inference)
 - Requests (API calls)
 
----
-
-## ⚙️ Setup Instructions
-
-1. Clone Repository
-git clone <your-repo-link>
-cd GraphRAG_DialysisSearch
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Start Ollama
-ollama serve
-
-Default endpoint:
-http://127.0.0.1:11434
-
-4. Run the Application
-python app.py
-
----
-
-## 🧪 Evaluation Metrics
+##  Evaluation Metrics
 
 The system includes lightweight RAGAS-style evaluation:
 
@@ -111,7 +89,7 @@ The system includes lightweight RAGAS-style evaluation:
 
 ---
 
-## 🛡️ Robustness Features
+##  Robustness Features
 
 - Handles missing data gracefully
 - Falls back when LLM fails
@@ -120,7 +98,7 @@ The system includes lightweight RAGAS-style evaluation:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 GraphRAG_DialysisSearch/
 │
@@ -145,15 +123,5 @@ GraphRAG_DialysisSearch/
 - Streamlit UI for visualization
 - Real-world clinical dataset integration
 - Multi-agent reasoning system
-
----
-
-## 👤 Author
-
-Prem Raga
-
----
-
-## ⭐ If you found this useful
 
 Star the repo and share!
